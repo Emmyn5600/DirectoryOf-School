@@ -65,6 +65,12 @@ html {
   height: 35px;
 }
 
+.form-submit-3 {
+  color: #d63384;
+  border-radius: 5px;
+  height: 35px;
+}
+
 .paragraph-2 {
   color: #dc3545;
   font-size: 13px;
@@ -72,6 +78,10 @@ html {
 
 .step1 img {
   height: 60px;
+}
+
+.lh-1 {
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

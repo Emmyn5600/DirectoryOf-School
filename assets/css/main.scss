@@ -4,6 +4,17 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
 $pink:    #d63384;
 $red-500: #dc3545;
 $orange:  #fd7e14;
@@ -79,6 +90,12 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
   height: 35px;
 }
 
+.form-submit-3 {
+  color: $danger;
+  border-radius: 5px;
+  height: 35px;
+}
+
 .paragraph-2 {
   color: $red-500;
   font-size: 13px;
@@ -86,4 +103,18 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
 
 .step1 img {
   height: 60px;
+}
+
+.media-body {
+  .lh-1 {
+    color: $white;
+  }
+
+  .paragraph-3 {
+    color: $white;
+  }
+
+  .paragraph-4 {
+    color: $success;
+  }
 }
