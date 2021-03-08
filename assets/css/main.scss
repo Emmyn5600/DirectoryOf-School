@@ -1,6 +1,5 @@
 html {
   padding: 0;
-  // overflow-y: scroll;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,6 +14,7 @@ $theme-colors: (
   "dark":       $dark
 );
 
+$cyan:    #0dcaf0;
 $pink:    #d63384;
 $red-500: #dc3545;
 $orange:  #fd7e14;
@@ -113,8 +113,8 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
   .paragraph-3 {
     color: $white;
   }
+}
 
-  .paragraph-4 {
-    color: $success;
-  }
+.paragraph-4 {
+  color: $cyan;
 }
