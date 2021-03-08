@@ -1,0 +1,62 @@
+html {
+  padding: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0))), url("./../../assets/images/school2.jpg") 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), url("./../../assets/images/school2.jpg") 100%;
+  background-position: center;
+  margin: 6px;
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo-sections .logo-sections-1 {
+  background-color: #dc3545;
+}
+
+.logo-sections i {
+  color: #fff;
+}
+
+.logo-sections .palashute-paragra {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-menus i {
+  margin: 10px;
+}
+
+.main-section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  padding-top: 180px;
+}
+
+.main-section .palashute-form {
+  width: 80%;
+  margin-left: 30px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.main-section .palashute-form input {
+  width: 90%;
+  height: 42px;
+  border-radius: 8px;
+}
+
+.main-section .heading-form::after {
+  content: ":";
+}
+
+.main-section .form-submit {
+  background-color: #dc3545;
+}
+
+/*# sourceMappingURL=main.css.map */

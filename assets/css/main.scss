@@ -1,0 +1,74 @@
+html {
+  // margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+$pink:    #d63384;
+$red-500: #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$white:    #fff;
+$black:    #000;
+$gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
+
+.background {
+  background: $gradient, url('./../../assets/images/school2.jpg') 100%;
+  background-position: center;
+  margin: 6px;
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo-sections {
+  .logo-sections-1 {
+    background-color: $red-500;
+  }
+
+  i {
+    color: $white;
+  }
+
+  .palashute-paragra {
+    color: $white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+.header-menus {
+  i {
+    margin: 10px;
+  }
+}
+
+.main-section {
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $white;
+    padding-top: 180px;
+  }
+
+  .palashute-form {
+    width: 80%;
+    margin-left: 30px;
+    height: 160px;
+    border-radius: 10px;
+  }
+
+  .palashute-form input {
+    width: 90%;
+    height: 42px;
+    border-radius: 8px;
+  }
+
+  .heading-form::after {
+    content: ":";
+  }
+
+  .form-submit {
+    background-color: $red-500;
+  }
+}
