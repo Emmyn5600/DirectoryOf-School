@@ -59,4 +59,19 @@ html {
   color: #fff;
 }
 
+.form-submit-2 {
+  color: #fff;
+  border-radius: 9px;
+  height: 35px;
+}
+
+.paragraph-2 {
+  color: #dc3545;
+  font-size: 13px;
+}
+
+.step1 img {
+  height: 60px;
+}
+
 /*# sourceMappingURL=main.css.map */
