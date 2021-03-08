@@ -1,7 +1,6 @@
 html {
-  // margin: 0;
   padding: 0;
-  overflow: hidden;
+  // overflow-y: scroll;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -48,19 +47,19 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
   p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: $white;
-    padding-top: 180px;
+    padding-top: 170px;
   }
 
   .palashute-form {
     width: 80%;
     margin-left: 30px;
-    height: 160px;
+    height: 140px;
     border-radius: 10px;
   }
 
   .palashute-form input {
     width: 90%;
-    height: 42px;
+    height: 30px;
     border-radius: 8px;
   }
 
@@ -70,11 +69,6 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
 
   .form-submit {
     background-color: $red-500;
-    color: $white;
-  }
-
-  .form-submit-2 {
-    height: 200px;
     color: $white;
   }
 }

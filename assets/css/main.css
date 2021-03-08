@@ -1,6 +1,5 @@
 html {
   padding: 0;
-  overflow: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -35,19 +34,19 @@ html {
 .main-section p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
-  padding-top: 180px;
+  padding-top: 170px;
 }
 
 .main-section .palashute-form {
   width: 80%;
   margin-left: 30px;
-  height: 160px;
+  height: 140px;
   border-radius: 10px;
 }
 
 .main-section .palashute-form input {
   width: 90%;
-  height: 42px;
+  height: 30px;
   border-radius: 8px;
 }
 
@@ -57,11 +56,6 @@ html {
 
 .main-section .form-submit {
   background-color: #dc3545;
-  color: #fff;
-}
-
-.main-section .form-submit-2 {
-  height: 200px;
   color: #fff;
 }
 
