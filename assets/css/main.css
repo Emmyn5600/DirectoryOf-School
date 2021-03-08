@@ -57,6 +57,12 @@ html {
 
 .main-section .form-submit {
   background-color: #dc3545;
+  color: #fff;
+}
+
+.main-section .form-submit-2 {
+  height: 200px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

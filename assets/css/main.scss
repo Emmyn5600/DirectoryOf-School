@@ -70,5 +70,11 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
 
   .form-submit {
     background-color: $red-500;
+    color: $white;
+  }
+
+  .form-submit-2 {
+    height: 200px;
+    color: $white;
   }
 }
