@@ -93,5 +93,24 @@ html {
     width: 50%;
     margin-left: 330px;
   }
+
+  .more-info {
+    margin-left: 310px;
+  }
+
+  .footer_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer-1 {
+    padding: 0;
+  }
+
+  .footer-3 {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
