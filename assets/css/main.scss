@@ -126,6 +126,21 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
   background-color: $black;
 }
 
+.footer-2 {
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  width: 60px;
+}
+
+.last-footer {
+  text-align: center;
+}
+
+.last-footer button {
+  background-color: #6a7279;
+  border: none;
+}
+
 @media (min-width: $breakpoint-desktop) {
   .first-paragraph {
     text-align: center;
