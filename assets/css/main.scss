@@ -145,6 +145,16 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
   border: none;
 }
 
+.sub_1 {
+  width: 34%;
+}
+
+.last-icons {
+  width: 200px;
+  font-size: large;
+  margin-left: 20px;
+}
+
 @media (min-width: $breakpoint-desktop) {
   .first-paragraph {
     text-align: center;

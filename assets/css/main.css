@@ -100,9 +100,28 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer-1-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .l_f {
+    display: flex;
+  }
+
+  .sub_1 button {
+    padding: 20px;
+    width: 100%;
+  }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .first-paragraph {
     text-align: center;
   }
@@ -114,6 +133,12 @@ html {
 
   .more-info {
     margin-left: 310px;
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
   }
 
   .footer_1 {
@@ -130,11 +155,6 @@ html {
   .footer-3 {
     padding: 0;
   }
-
-  .results-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 1em;
-  }
 }
+
 /*# sourceMappingURL=main.css.map */
