@@ -84,6 +84,14 @@ html {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+  }
+}
+
 @media (min-width: 992px) {
   .first-paragraph {
     text-align: center;
@@ -111,6 +119,12 @@ html {
 
   .footer-3 {
     padding: 0;
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
