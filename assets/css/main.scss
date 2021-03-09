@@ -1,5 +1,6 @@
 html {
   padding: 0;
+  overflow-x: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -14,9 +15,11 @@ $theme-colors: (
   "dark":       $dark
 );
 
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
 $cyan:    #0dcaf0;
 $pink:    #d63384;
-$red-500: #dc3545;
+$red-500: #d6584a;
 $orange:  #fd7e14;
 $yellow:  #ffc107;
 $white:    #fff;
@@ -123,15 +126,17 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
   background-color: $black;
 }
 
-@media screen and (min-width: 768px) {
-  // .logo-sections-1 {
-  //   background-color: $red-500;
-  // }
-}
+@media (min-width: $breakpoint-desktop) {
+  .first-paragraph {
+    text-align: center;
+    background-color: #d63384;
+  }
 
-@media screen and (min-width: 1024px) {
-  // .none {
-  //   background-color: $red-500;
-  //   width: 100%;
-  // }
+  .main-section {
+    .palashute-form {
+      width: 50%;
+      margin-left: 400px;
+      background-color: $yellow;
+    }
+  }
 }

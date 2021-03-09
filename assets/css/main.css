@@ -84,4 +84,14 @@ html {
   color: #fff;
 }
 
+@media (min-width: 992px) {
+  .first-paragraph {
+    text-align: center;
+  }
+
+  .main-section .palashute-form {
+    width: 50%;
+    margin-left: 330px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
