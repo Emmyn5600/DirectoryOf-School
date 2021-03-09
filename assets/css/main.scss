@@ -122,3 +122,16 @@ $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
 .footer {
   background-color: $black;
 }
+
+@media screen and (min-width: 768px) {
+  // .logo-sections-1 {
+  //   background-color: $red-500;
+  // }
+}
+
+@media screen and (min-width: 1024px) {
+  // .none {
+  //   background-color: $red-500;
+  //   width: 100%;
+  // }
+}
