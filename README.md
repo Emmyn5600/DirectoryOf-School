@@ -15,11 +15,26 @@ Additional description about the project and its features.
 
 - HTML5 , CSS3, SASS
 - Bootstrap
-- Windows, Linux
+- Windows
+- Font awesome icons
 
 ## Live Demo
 
-[Live Demo Link]
+[Live Demo Link](https://emmyn5600.github.io/DirectoryOf-School/)
+
+## Loom Video
+
+[Click Here](https://www.loom.com/share/ce01af4d87224102acfc76f265c54f6f)
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps
+
+ - git clone [git@github.com:Emmyn5600/DirectoryOf-School.git]
+ - cd DirectoryOf-Schools/
+ - git checkout -b development
+ - git pull
+ - If you have VScode Live Server installed, run it and open.
 
 ## Authors
 
