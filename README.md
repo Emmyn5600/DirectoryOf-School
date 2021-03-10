@@ -30,7 +30,7 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple steps
 
- - git clone [](git@github.com:Emmyn5600/DirectoryOf-School.git)
+ - git clone (https://github.com/Emmyn5600/DirectoryOf-School.git)
  - cd DirectoryOf-Schools/
  - git checkout -b development
  - git pull
