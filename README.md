@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple steps
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Emmyn5600/).
+Feel free to check the [issues page](https://github.com/Emmyn5600/DirectoryOf-School/issues).
 
 ## Show your support
 
