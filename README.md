@@ -11,7 +11,7 @@
 
 Additional description about the project and its features.
 
-![Screenshot](./assets/images/patashule.png)
+![Screenshot](./assets/images/patashule.png)(./assets/images/patashule1.png)(./assets/images/patashule2.png)(./assets/images/patashule3.png)
 
 ## Built With
 
