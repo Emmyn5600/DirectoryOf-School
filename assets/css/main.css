@@ -1,0 +1,160 @@
+html {
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0))), url("./../../assets/images/school2.jpg") 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), url("./../../assets/images/school2.jpg") 100%;
+  background-position: center;
+  margin: 6px;
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo-sections .logo-sections-1 {
+  background-color: #dc3545;
+}
+
+.logo-sections i {
+  color: #fff;
+}
+
+.logo-sections .palashute-paragra {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-menus i {
+  margin: 10px;
+}
+
+.main-section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  padding-top: 170px;
+}
+
+.main-section .palashute-form {
+  width: 80%;
+  margin-left: 30px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.main-section .palashute-form input {
+  width: 90%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.main-section .heading-form::after {
+  content: ":";
+}
+
+.main-section .form-submit {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.form-submit-2 {
+  color: #fff;
+  border-radius: 9px;
+  height: 35px;
+}
+
+.form-submit-3 {
+  color: #d63384;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.paragraph-2 {
+  color: #dc3545;
+  font-size: 13px;
+}
+
+.step1 img {
+  height: 60px;
+}
+
+.lh-1 {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+  }
+
+  .details {
+    width: 97%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .location-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-1-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .l_f {
+    display: flex;
+  }
+
+  .sub_1 button {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .first-paragraph {
+    text-align: center;
+  }
+
+  .main-section .palashute-form {
+    width: 50%;
+    margin-left: 330px;
+  }
+
+  .more-info {
+    margin-left: 310px;
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
+  }
+
+  .footer_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer-1 {
+    padding: 0;
+  }
+
+  .footer-3 {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

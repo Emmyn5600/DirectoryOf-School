@@ -1,0 +1,171 @@
+html {
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
+$cyan:    #0dcaf0;
+$pink:    #d63384;
+$red-500: #d6584a;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$white:    #fff;
+$black:    #000;
+$gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
+
+.background {
+  background: $gradient, url('./../../assets/images/school2.jpg') 100%;
+  background-position: center;
+  margin: 6px;
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo-sections {
+  .logo-sections-1 {
+    background-color: $red-500;
+  }
+
+  i {
+    color: $white;
+  }
+
+  .palashute-paragra {
+    color: $white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+.header-menus {
+  i {
+    margin: 10px;
+  }
+}
+
+.main-section {
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $white;
+    padding-top: 170px;
+  }
+
+  .palashute-form {
+    width: 80%;
+    margin-left: 30px;
+    height: 140px;
+    border-radius: 10px;
+  }
+
+  .palashute-form input {
+    width: 90%;
+    height: 30px;
+    border-radius: 8px;
+  }
+
+  .heading-form::after {
+    content: ":";
+  }
+
+  .form-submit {
+    background-color: $red-500;
+    color: $white;
+  }
+}
+
+.form-submit-2 {
+  color: $white;
+  border-radius: 9px;
+  height: 35px;
+}
+
+.form-submit-3 {
+  color: $danger;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.paragraph-2 {
+  color: $red-500;
+  font-size: 13px;
+}
+
+.step1 img {
+  height: 60px;
+}
+
+.media-body {
+  .lh-1 {
+    color: $white;
+  }
+
+  .paragraph-3 {
+    color: $white;
+  }
+}
+
+.paragraph-4 {
+  color: $cyan;
+}
+
+.location-details {
+  height: 200px;
+}
+
+.footer {
+  background-color: $black;
+}
+
+.footer-2 {
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  width: 60px;
+}
+
+.last-footer {
+  text-align: center;
+}
+
+.last-footer button {
+  background-color: #6a7279;
+  border: none;
+}
+
+.sub_1 {
+  width: 34%;
+}
+
+.last-icons {
+  width: 200px;
+  font-size: large;
+  margin-left: 20px;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .first-paragraph {
+    text-align: center;
+    background-color: #d63384;
+  }
+
+  .main-section {
+    .palashute-form {
+      width: 50%;
+      margin-left: 400px;
+      background-color: $yellow;
+    }
+  }
+}

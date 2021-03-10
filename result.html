@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DirectorySchool</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" type="image/jpg" href="./assets/images/favicon.jfif" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script src="https://kit.fontawesome.com/fd0eaf46fd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid bg-secondary bg-gradient p-0 ">
+          <header>
+            <nav class="nav-1 d-md-none">
+                <div class="logo-sections mb-0">
+                  <div class="logo-sections-1 mb-0">
+                  <div class="logo-second-sections text-center fs-3">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    <a class="palashute-paragra fs-1 text-decoration-none text-white" href="index.html">patashule</a>
+                  </div>
+                  <div class="header-menus text-center pt-3 pb-3">
+                      <a href="result.html"><i class="bi bi-search"></i></a>
+                      <i class="bi bi-person"></i>
+                      <i class="bi bi-wifi"></i>
+                      <i class="bi bi-list"></i>
+                  </div>
+                  </div>
+                </div>
+            </nav>
+  
+             <!-- menu for the tablet view  -->
+             <nav class="nav-2 d-lg-none d-none d-none d-md-flex justify-content-around bg-danger">
+              <div class="p-1 nav_1">
+                <a class="d-flex text-decoration-none" href="index.html">
+                  <div><i class="bi bi-geo-alt-fill h2 text-white p-2"></i></div>
+                  <div>
+                    <h2 class="text-white fs-4">patashule</h2>
+                  </div>
+                </a>
+              </div>
+              <div class="nav nav-icons-2 px-2">
+                <a class="text-white link-color text-decoration-none" href="result.html">
+                  <i class="bi bi-search nav-item nav-link  text-uppercase"></i>
+                </a>
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="bi bi-person nav-item nav-link  text-uppercase"></i>
+                </a>
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="bi bi-wifi nav-item nav-link  text-uppercase"></i>
+                </a>
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="bi bi-list nav-item nav-link  text-uppercase"></i>
+                </a>
+              </div>
+            </nav>
+  
+            <!-- menu for the desktop view  -->
+             <nav class="nav-3 d-none d-lg-flex justify-content-between bg-danger">
+              <div class="p-1 nav_1">
+                <a class="d-flex text-decoration-none" href="index.html">
+                  <div><i class="bi bi-geo-alt-fill h2 text-white p-2"></i></div>
+                  <div>
+                    <h2 class="text-white fs-4">patashule</h2>
+                  </div>
+                </a>
+              </div>
+              <div class="nav nav-icons-3 px-2">
+                <a class="text-white link-color text-decoration-none" href="result.html">
+                  <i class="bi bi-search nav-item nav-link  text-uppercase"> search</i>
+                </a>
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="bi bi-person nav-item nav-link  text-uppercase"> About</i>
+                </a>
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="bi bi-wifi nav-item nav-link  text-uppercase">  Blog</i>
+                </a>
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="bi bi-list nav-item nav-link  text-uppercase"> More</i>
+                </a>
+              </div>
+            </nav>
+          </header>
+           <main>
+           <form class="container-fluid aline-center p-4 text-grey bg-light">
+            <h2 class="result-heading">Filter by Name, Country, Education, System, School level..</h2>
+            <div class="inputs">
+              <div class="input-1 d-flex flex-wrap">
+                <div class="form-group m-2">
+                  <label>School name*</label>
+                  <input class="p-1" type="text">
+                </div>
+                <div class="form-group m-2">
+                  <label>Country:</label>
+                  <select class="p-1">
+                    <option value disabled selected>select a country</option>
+                    <option>Rwanda</option>
+                    <option>Burundi</option>
+                    <option>Uganda</option>
+                    <option>Nigeria</option>
+                    <option>Brazil</option>
+                    <option>Spain</option>
+                  </select>
+                </div>
+                <div class="form-group m-2">
+                    <label>Level:</label>
+                    <select class="p-1">
+                      <option value disabled selected>select a level</option>
+                      <option>Level 1</option>
+                      <option>Level 2</option>
+                      <option>Level 3</option>
+                    </select>
+                  </div>
+                  <div class="form-group m-2">
+                    <label>Type:</label>
+                    <select class="p-1">
+                      <option value disabled selected>select a type</option>
+                      <option>Type 1</option>
+                      <option>Type 2</option>
+                      <option>Type 3</option>
+                    </select>
+                  </div>
+                  <div class="form-group m-2">
+                    <label>Gender:</label>
+                    <select class="p-1">
+                      <option value disabled selected>select a Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                  <div class="form-group m-2">
+                    <label>Cirricullum:</label>
+                    <select class="p-1">
+                      <option value disabled selected>select a Cirricullum</option>
+                      <option>Computer</option>
+                      <option>Mathematics</option>
+                      <option>Finance</option>
+                    </select>
+                  </div>
+                <div class="form-group m-2">
+                  <button type="submit" class="btn bg-warning text-white">Search</button>
+                  <button type="submit" class="btn bg-primary text-white">Clear filter</button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="container-fluid py-4">
+            <h5 class="text-tomato h5 my-3 text-uppercase">Search results found 4 schools</h5>
+            <div class="results-grid">
+              <div class="card-results my-2">
+                <div class="card"><a href="detail.html" class="text-decoration-none">
+                    <img class="card-img-top" src="./assets/images/kist1.jpg" alt="school">
+                    <div class="card-body bg-danger">
+                      <p class="card-text m-0 text-white"><span class="h5">Name :</span> KIST</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Location :</span> Kigali-Nyarugenge kG-29</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Rooms :</span> 500 </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="card-results my-2">
+                <div class="card"><a href="detail.html" class="text-decoration-none">
+                    <img class="card-img-top" src="./assets/images/kist3.jpg" alt="school">
+                    <div class="card-body bg-danger">
+                      <p class="card-text m-0 text-white"><span class="h5">Name :</span> KIST</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Location :</span> Kigali-Nyarugenge kG-29</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Rooms :</span> 500 </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="card-results my-2">
+                <div class="card"><a href="detail.html" class="text-decoration-none">
+                    <img class="card-img-top" src="./assets/images/kist1.jpg" alt="school">
+                    <div class="card-body bg-danger">
+                      <p class="card-text m-0 text-white"><span class="h5">Name :</span> KIST</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Location :</span> Kigali-Nyarugenge kG-29</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Rooms :</span> 500 </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="card-results my-2">
+                <div class="card"><a href="detail.html" class="text-decoration-none">
+                    <img class="card-img-top" src="./assets/images/kist3.jpg" alt="school">
+                    <div class="card-body bg-danger">
+                      <p class="card-text m-0 text-white"><span class="h5">Name :</span> KIST</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Location :</span> Kigali-Nyarugenge kG-29</p>
+                      <p class="card-text m-0 text-white"><span class="h5">Rooms :</span> 500 </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid footer p-3 bg-dark bg-gradient">
+            <div class="footer_1">
+                <div class="footer-1 border-top border-bottom">
+                <div class="text-center footer-1-details px-md-5">
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">HOME</a>
+                    </div>
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">SEARCH</a>
+                    </div>
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">ABOUT US</a>
+                    </div>
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">ADVERTISE</a>
+                    </div>
+                </div>
+                </div>
+                <div class="home margin footer-2 text-center margin-top py-3 my-2"><a href="#"><i
+                    class="fas fa-home text-white p-2"></i></a></div>
+            <div class="footer-3  text-center border-top px-md-5c` border-bottom">
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">FACEBOOK</a>
+                    </div>
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">TWITTER</a>
+                    </div>
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">BLOG </a>
+                    </div>
+                    <div class="m-2">
+                    <a class="text-decoration-none text-white" href="#">GOOGLE +</a>
+                    </div>
+            </div>
+            </div>
+    
+            <!-- last section with social media account-->
+    
+            <div class="container-fluid last-footer">
+                <div class="l_f aline-center">
+                    <div class=" sub_1 p-4 mx-auto mt-2">
+                    <p class="text-white fs-6">SUBSCRIBE</p>
+                    <div class="input-groups  input d-flex aline-center">
+                        <input class="p-sn-1" type="text" placeholder="email@example.com">
+                        <button type="button" class="text-white p-1 bg-dark bg-gradient">SEND</button>
+                    </div>
+                    </div>
+                    <div class="contact text-white p-4 mt-2">
+                        <h5 class="fs-6">CONTACT</h5>
+                        <p class="text-white fs-7">We are located at Kigali road, Kicukiro District. You can contact us at
+                        <a href="#" class="text-emmy text-decoration-none">emmy66418@gmail.com</a></p>
+                    </div>
+                    <div class="contact text-white p-4 mt-2">
+                        <h5 class="fs-6">ABOUT</h5>
+                        <p class="text-white fs-7">We provide the bright future to the students. For more information, check<a href="#" class="text-school text-decoration-none"> Here!!!</a> for reviews</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+     </main>
+    <!-- footer section  -->
+
+        <footer class="p-3 bg-dark bg-gradient">
+            <div class="container-fluid">
+            <div class="last-icons text-white">
+                <div class="l-icons text-grey flex">
+                <i class="fas fa-paper-plane"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-facebook"></i>
+                </div>
+            </div>
+            <p class="footer-text-1 text-white">&copy; 2020 This site is designed as part of the capstone asignment at microverseinc.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
