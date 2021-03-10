@@ -11,6 +11,8 @@
 
 Additional description about the project and its features.
 
+![Screenshot](./assets/images/patashule.png)
+
 ## Built With
 
 - HTML5 , CSS3, SASS
