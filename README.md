@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# DirectoryOf-Schools
+# `DirectoryOf-Schools`
 
 ###### Patashule is a web app that bridges the gap between schools and parents. We developed this as a result of a felt need by parents/ guardians and learners for adequate accurate and necessary information on their preferred schools and inability to apply online.
 
@@ -19,22 +19,22 @@ Additional description about the project and its features.
 ![Screenshot](./assets/images/patashule5.png)
 ![Screenshot](./assets/images/patashule6.png)
 
-## Built With
+## `Built With`
 
 - HTML5 , CSS3, SASS
 - Bootstrap
 - Windows
 - Font awesome icons
 
-## Live Demo
+## `Live Demo`
 
 [Live Demo Link](https://emmyn5600.github.io/DirectoryOf-School/)
 
-## Loom Video
+## `Loom Video`
 
 [Click Here](https://www.loom.com/share/ce01af4d87224102acfc76f265c54f6f)
 
-## Getting Started
+## `Getting Started`
 
 To get a local copy up and running follow these simple steps
 
@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple steps
  - git pull
  - If you have VScode Live Server installed, run it and open.
 
-## Authors
+## `Author`
 
 👤 **NSABIMANA Emmanuel**
 
