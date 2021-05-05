@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple steps
 
  - git clone (https://github.com/Emmyn5600/DirectoryOf-School.git)
  - cd DirectoryOf-Schools/
- - git checkout -b development
+ - git checkout development
  - git pull
  - If you have VScode Live Server installed, run it and open.
 
